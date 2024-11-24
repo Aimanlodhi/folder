@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+
+    <header>
+        <h1>Post App</h1>
+    </header>
+    <main>
+        <form id="postForm">
+            <textarea id="postContent" placeholder="Write your post..." required></textarea>
+            <button type="submit">Post</button>
+        </form>
+        <div id="postsContainer"></div>
+    </main>
+    <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.5.0/firebase-firestore.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
